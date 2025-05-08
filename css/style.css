@@ -1,0 +1,127 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* .custom-navbar {
+} */
+
+/* Hero section */
+
+.hero-section {
+  height: 460px;
+  width: auto;
+  background-image: url(../images/hero-cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section .motto {
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: 600;
+}
+
+.input-field {
+  border: none;
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+/* Hero Features Section */
+.hero-features-container {
+  margin-top: -3.5rem;
+}
+.features-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Why Choose Us */
+
+.why-choose-us-section {
+  background-color: #fafbfc;
+}
+
+.line {
+  width: 30px;
+  height: 1px;
+  background-color: #979797;
+}
+
+/* Background color container */
+.count-section,
+.testimonials-section,
+.contact-section {
+  background-color: #f4f5f8;
+}
+
+/* How it Works */
+
+.features-list-item {
+  border-left: 3px solid #f7f8fa;
+}
+
+.features-list .features-list-item:last-child {
+  border-left: none;
+}
+
+.round-div {
+  background-image: linear-gradient(135deg, #23a999 1%, #00a1ba 52%, #006597);
+  height: 50px;
+  width: 50px;
+  top: 0;
+  left: -25px;
+}
+
+.feature-number {
+  margin-bottom: 0 !important;
+}
+
+/* Testimonials Section */
+.testimonial-description {
+  border-left: 10px solid #00a1ba;
+}
+
+.testimonial-quote-sign {
+  font-size: 42px;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 0;
+}
+
+/* button */
+.btn-cta {
+  background-color: #c71f66;
+}
+
+/* Contact Section */
+.contact-section-image {
+  bottom: 0px;
+  right: 0;
+}
+
+/* Footer Section */
+.footer-container {
+  background-color: #ebecef;
+}
+
+.footer-font {
+  font-size: 14px;
+}
+
+.bg-footer {
+  background-color: #dfe0e3;
+}
+
+/* Small Screen */
+@media (max-width: 434px) {
+  .hero-features-container {
+    margin-top: -1rem;
+  }
+}
